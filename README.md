@@ -1,5 +1,4 @@
-![Cheshire Cat](https://raw.githubusercontent.com/themooer1/cheshire/master/docs/assets/img/cheshire.png)
-# Cheshire
+# Keepsmile API
 
 API for Keepsmile and related Bluetooth LE lights.
 
@@ -9,7 +8,7 @@ API for Keepsmile and related Bluetooth LE lights.
 The example below scans for Bluetooth LE devices and tries to control any 
 which are supported.
 
-For more detailed instructions, see the [user guide](https://github.com/themooer1/cheshire/blob/master/docs/user_guide.md).
+For more detailed instructions, see the [user guide](https://github.com/andrewcincotta/keepsmile-api/blob/master/docs/user_guide.md).
 
 ```python
 import asyncio
@@ -53,7 +52,7 @@ async def main():
 asyncio.run(main())
 ```
 
-## Supported Devices
+## Supported Devices so Far
 | Device | Bluetooth Name | Support |
 |-|-|-|
 | Keepsmile Led Strip Lights | KS03-XXXX | Yes |
